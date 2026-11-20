@@ -1,5 +1,5 @@
 import { Dispositivo } from "./Dispositivo.js"
-class Electrodomestico extends Dispositivo{
+export class Electrodomestico extends Dispositivo{
     #nombre;
     #potenciaWatts;
     #encendido;
