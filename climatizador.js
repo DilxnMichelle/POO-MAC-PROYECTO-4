@@ -1,5 +1,5 @@
 import { Dispositivo } from "./Dispositivo.js"
-class climatizador extends Dispositivo{
+export class climatizador extends Dispositivo{
     #modo
     #turbo
     constructor(modo, id, nombre, potenciaWatts, turbo) {
